@@ -83,35 +83,6 @@ html {
   cursor: pointer;
 }
 
-/* .skeleton::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateX(-100%);
-  background-image: linear-gradient(
-    90deg,
-    rgba(#193763, 0) 0,
-    rgba(#193763, 0.2) 20%,
-    rgba(#193763, 0.5) 60%,
-    rgba(#193763, 0)
-  );
-  animation: shimmer 2s infinite;
-  content: "";
-} */
-
-/* @keyframes shimmer {
-  0% {
-    opacity: 0;
-    transform: translate(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-} */
-
 .react-select-container > .react-select__control {
   border: 0;
   outline: 0;
