@@ -77,7 +77,7 @@ const Header = () => {
     >
       <ContentWrapper className="flex items-center justify-between">
         <div className="cursor-pointer" onClick={() => navigate("/")}>
-          <img className="h-[30px]" src={logo} alt="LOGO" />
+          <img className="h-[20px] md:h-[30px]" src={logo} alt="LOGO" />
         </div>
         <ul
           className={`  ${
