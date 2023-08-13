@@ -76,9 +76,12 @@ const SearchResult = () => {
                 </InfiniteScroll>
               </>
             ) : (
-              <span className="text-[24px] text-dark-light">
-                Sorry, results are not available!
-              </span>
+              <div className="h-full w-full flex flex-col items-center justify-center">
+                <span className="text-[24px] text-dark-light">
+                  Sorry, results are not available!
+                </span>
+                <img className="h-[500px]" src={noResults} alt="" />
+              </div>
             )}
           </ContentWrapper>
         )}
